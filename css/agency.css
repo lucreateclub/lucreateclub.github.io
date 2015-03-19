@@ -347,7 +347,7 @@ section h3.section-subheading {
 }
 
 #past-events .portfolio-item {
-    
+    right: 0;
     margin: 0 0 15px;
 }
 
