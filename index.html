@@ -17,7 +17,7 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
@@ -44,12 +44,18 @@
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div>
+                    
+                </div>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#mission">Our Mission</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#challenge">Creativity Challenge</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#events">Events</a>
@@ -73,12 +79,13 @@
             <div class="intro-text">
                 <div class="intro-heading">CREATE Club</div>
                 <a href="#mission" class="page-scroll btn btn-xl">Tell Me More</a>
+                <a href="#challenge" class="page-scroll btn btn-xl">Creativity Challenge</a>
             </div>
         </div>
     </header>
 
     <!-- Mission Section -->
-    <section id="mission" class="bg-light-gray">
+    <section id="mission">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -93,7 +100,7 @@
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Skill Building</h4>
-                    <p class="text-muted">An effective entrepreneur is a well-rounded entrepreneur. At CREATE Club offers purposeful activities and experiences targeted and developing various skills, from basic 3-D modeling to brainstorming effectively in a group.</p>
+                    <p class="text-muted-desc">An effective entrepreneur is a well-rounded entrepreneur. At CREATE Club offers purposeful activities and experiences targeted and developing various skills, from basic 3-D modeling to brainstorming effectively in a group.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -101,7 +108,7 @@
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Guest Speakers</h4>
-                    <p class="text-muted">Learning for those with expertise is another experience that CREATE Club brings to its members. These events are based around open-discussion, allowing for an insightful and personalized interaction between the speaker and the attendees.</p>
+                    <p class="text-muted-desc">Learning for those with expertise is another experience that CREATE Club brings to its members. These events are based around open-discussion, allowing for an insightful and personalized interaction between the speaker and the attendees.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -109,13 +116,23 @@
                         <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Hands-On Activities</h4>
-                    <p class="text-muted">These activities give members a chance to get their hands dirty. With events like basic welding, these are not your typical entrepreneurial experiences, but knowledge of them allows for a better understanding of what goes on “behind the scenes” when developing a product or service.</p>
+                    <p class="text-muted-desc">These activities give members a chance to get their hands dirty. With events like basic welding, these are not your typical entrepreneurial experiences, but knowledge of them allows for a better understanding of what goes on “behind the scenes” when developing a product or service.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Events Section -->
+    <section id="challenge" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Creativity Challenge</h2>
+                    <h3 class="section-subheading text-muted">Showcase your creativity.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="events">
         <div class="container">
             <div class="row">
@@ -129,13 +146,12 @@
         </div>
     </section>
 
-    <!-- Past Events Grid Section -->
     <section id="past-events" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Past Events</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Catch up with our prior events.</h3>
                 </div>
             </div>
             <div class="row">
@@ -227,13 +243,11 @@
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    <section id="team" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
             <div class="row">
@@ -241,7 +255,7 @@
                     <div class="team-member">
                         <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
                         <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <p class="text-muted-desc">Lead Designer</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -256,7 +270,7 @@
                     <div class="team-member">
                         <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
                         <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <p class="text-muted-desc">Lead Marketer</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -271,7 +285,7 @@
                     <div class="team-member">
                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
                         <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <p class="text-muted-desc">Lead Developer</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -281,11 +295,6 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
                 </div>
             </div>
         </div>
@@ -361,7 +370,6 @@
         </div>
     </footer>
 
-    <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -377,7 +385,7 @@
                             <h2>Talk With Professor Costa</h2>
                             <p class="item-intro text-muted">March 4th 2015</p>
                             <img class="img-responsive" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <p>We were lucky to have Professor Costa join us to discuss his first-hand experiences working as an entrepreneur. He shared many valuable lessons </p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
