@@ -630,10 +630,11 @@ section h3.section-subheading {
     border: 7px solid #fff;
 }
 
-.team-member h4 {
+#team h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+    color:#fff;
 }
 
 .team-member p {
