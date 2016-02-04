@@ -1,12 +1,6 @@
-/*!
- * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
     overflow-x: hidden;
-    font-family: Raleway,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue","Lato",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -654,9 +648,9 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    /*background-image: url(../img/create-logo-bw.png);
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 
 section#contact .section-heading {
