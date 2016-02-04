@@ -414,6 +414,13 @@ section h3.section-subheading {
     z-index: 2;
 }
 
+#past-events h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+    color:#fff;
+}
+
 @media(min-width:767px) {
     #past-events .portfolio-item {
         margin: 0 0 30px;
